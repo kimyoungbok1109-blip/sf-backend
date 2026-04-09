@@ -10,4 +10,9 @@ public class HealthCheckController {
     public String healthCheck() {
         return "스마트팩토리 백엔드 서버가 정상적으로 실행 중입니다!";
     }
+
+    @GetMapping("/api/test2")
+    public String test2() {
+        return "test2";
+    }
 }
