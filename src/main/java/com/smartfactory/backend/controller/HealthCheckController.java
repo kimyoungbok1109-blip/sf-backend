@@ -11,8 +11,9 @@ public class HealthCheckController {
         return "스마트팩토리 백엔드 서버가 정상적으로 실행 중입니다!";
     }
 
-    @GetMapping("/api/test2")
-    public String test2() {
-        return "test2";
+    @GetMapping("/api/test")
+    public String test() {
+        return "test";
     }
+
 }
